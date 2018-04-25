@@ -1,0 +1,71 @@
+body {
+  background-image: url(./picture/bg.png);
+}
+
+.home{
+  position: fixed;
+  z-index: 5;
+}
+
+.home img{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  opacity: 0.6;
+}
+
+/* home styles */
+
+.content{
+  position: fixed;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  z-index: 20;
+}
+
+.content h1{
+  margin-bottom: 20px;
+  font-size: 5em;
+  color: green;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.content h3{
+  margin: 90px 0px 60px 0px;
+  font-size: 1.8em;
+  color: green;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.content img{
+  width: 150px;
+  height: 150px;
+}
+
+.content img:active{
+  margin-top: 5px;
+  width: 130px;
+  height: 130px;
+}
+
+span {
+  color: red;
+}
+
+#displayNew{
+  width: 70%;
+  height: 75px;
+  font-size: 1em;
+  color: green;
+  text-align: center;
+}

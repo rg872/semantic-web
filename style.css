@@ -1,0 +1,200 @@
+/* GLobal */
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/* background for all pages */
+
+.background{
+  width:100%;
+  height: 100vh;
+  position: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  text-align: center;
+}
+
+#background_img_home{
+  background-image: url(./picture/home-bg.jpeg);
+}
+
+#background_img_journal{
+  background-image: url(./picture/journal-bg.jpeg);
+}
+
+#background_img_portofolio{
+  background-image: url(./picture/portofolio-bg.jpg);
+}
+
+#background_img_aboutme{
+  background-image: url(./picture/aboutme-bg.jpeg);
+}
+
+/* header for home and other pages */
+
+.home_header{
+  width:100%;
+  height: 100px;
+  position: fixed;
+  z-index: 5;
+  background-color: #3598DB;
+  text-align: center;
+}
+
+.home_header img{
+  width:100px;
+  height: 100px;
+}
+
+.header {
+  width:100%;
+  height: 100px;
+  position: fixed;
+  z-index: 5;
+  background-color: #3598DB;
+}
+
+.header ul {
+   list-style-type: none;
+   overflow: hidden;
+}
+
+.header li {
+   float: left;
+}
+
+.header li a {
+  height: 100px;
+  display: block;
+  margin-left: 70px;
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.header img{
+  width:100px;
+  height: 100px;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+
+#nav_active{
+  text-decoration: underline;
+
+}
+
+/* home styles */
+
+.home_content{
+  position: fixed;
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  z-index: 20;
+}
+
+.home_content h1{
+  margin-bottom: 20px;
+  font-size: 5em;
+  color: white;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
+.home_content h3{
+  margin: 90px 0px 60px 0px;
+  font-size: 1.8em;
+  color: white;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
+.home_content img{
+  width: 300px;
+  height: 75px;
+}
+
+/* journal styles */
+
+.journal_content{
+  position: fixed;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 30px;
+  text-align: left;
+  z-index: 20;
+}
+
+.journal_content h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.journal_content ul {
+   list-style-type: none;
+   overflow: hidden;
+   margin-bottom: 50px;
+}
+
+.journal_content li {
+  margin-bottom: 5px;
+}
+
+.journal_content li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  text-decoration: none;
+
+}
+
+/* portofolio styles */
+
+.portofolio_content{
+  position: fixed;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 30px;
+  text-align: left;
+  z-index: 20;
+}
+
+.portofolio_content h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.portofolio_content ul {
+   list-style-type: none;
+   overflow: hidden;
+   margin-bottom: 50px;
+}
+
+.portofolio_content li {
+  margin-bottom: 5px;
+}
+
+.portofolio_content li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  text-decoration: none;
+
+}
